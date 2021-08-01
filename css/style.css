@@ -78,6 +78,13 @@ li {
 .nav-list a:focus {
   color: var(--accent-color);
 }
+.list-text {
+  display: flex;
+  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .list-text .item {
   margin-left: auto;
   display: flex;
@@ -241,10 +248,12 @@ h2.text {
 .desc-list {
   display: flex;
   justify-content: center;
+  padding-left: 0;
   margin: 0;
   margin-bottom: 50px;
  
 }
+
 
 
 .desc-list button {
