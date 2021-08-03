@@ -437,3 +437,49 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
 align-items: center;
 }
+
+.item .icon-item {
+ 
+  background: #F5F4FA;
+  border-radius: 4px;
+  padding: 25px 102px;
+  
+}
+
+
+
+/* social link */
+
+
+
+.social-icon  {
+  padding-bottom: 30px;
+  
+}
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  
+  border-radius:50%;
+  
+
+}
+.list-icon {
+  fill: #AFB1B8;
+}
+
+.list-icon:hover {
+  fill: var(--white-color);
+}
+.social-link:hover{
+  background-color: var(--accent-color);
+  fill: var(--white-color);
+}
+
+.social-link:last-child {
+  margin-right: 0;
+}
