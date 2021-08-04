@@ -418,12 +418,15 @@ border-radius: 0px 0px 4px 4px;
   border-left: 1px solid var(--border-text);
   padding: 20px 24px;
 }
+
+
+
 .button-icon {
   margin-right: 10px;
   fill: var(--title-text-color);
 
-
 }
+
 .contact-icon {
   margin-right: 10px;
   fill: var(--title-text-color);
