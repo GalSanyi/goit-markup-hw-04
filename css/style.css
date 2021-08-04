@@ -478,10 +478,10 @@ align-items: center;
   fill: #AFB1B8;
 }
 
-.list-icon:hover {
+.list-icon:hover svg  {
   fill: var(--white-color);
 }
-.social-link:hover{
+.social-link:hover {
   background-color: var(--accent-color);
   fill: var(--white-color);
 }
@@ -522,6 +522,6 @@ align-items: center;
   
 }
  
-.company-link:hover .company-icon {
+.company-link:hover . svg {
   fill:  var(--accent-color);
 }
