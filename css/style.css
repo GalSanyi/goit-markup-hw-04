@@ -81,8 +81,8 @@ li {
 .list-text {
   display: flex;
   margin-left: auto;
- margin-top: 0;
- margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .list-text .item {
@@ -98,10 +98,9 @@ li {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.list-text .button :hover {
+.list-text .button:hover {
   color: var(--accent-color);
 }
-
 .container-box {
   max-width: 1600px;
   height: 600px;
@@ -109,19 +108,15 @@ li {
   text-align: center;
   padding: 200px 0;
   margin: 0 auto;
-  
+
   background-image: linear-gradient(
-    to right, 
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-     ),
-
-     url(../images/hero.jpg)
-     
-     ;
-     background-color: #000000;
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
+  background-color: #000000;
 }
-
 
 .section-content {
   padding-top: 94px;
@@ -224,7 +219,6 @@ h2.text {
 .list-adress {
   padding: 0;
   margin: 0;
-  
 }
 
 .list-adress a {
@@ -239,12 +233,10 @@ h2.text {
 
 /* PORTFOLIO DECORATION */
 
-
- .section-pic {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.section-pic {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-
 
 .desc-list {
   display: flex;
@@ -252,10 +244,7 @@ h2.text {
   padding-left: 0;
   margin: 0;
   margin-bottom: 50px;
- 
 }
-
-
 
 .desc-list button {
   background: #f5f4fa;
@@ -275,6 +264,7 @@ h2.text {
 .desc-list button:hover {
   background-color: var(--accent-color);
   color: var(--white-color);
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
 }
 
 .subtitle-text {
@@ -285,12 +275,11 @@ h2.text {
   margin-bottom: 0;
 }
 .subtitle-text .people-list {
-  
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.subtitle-text .people{
+.subtitle-text .people {
   display: block;
   max-width: 100%;
 }
@@ -386,9 +375,9 @@ h2.text {
 .subtitle-text .item {
   margin-right: 30px;
   background: var(--white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .subtitle-text .item:last-child {
   margin-right: 0;
@@ -403,13 +392,16 @@ border-radius: 0px 0px 4px 4px;
   padding: 0;
   margin-top: -30px;
   margin-left: -30px;
-  
 }
 
 .section-pic-list > .item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.section-pic-list > .item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .item .item-text {
@@ -419,12 +411,9 @@ border-radius: 0px 0px 4px 4px;
   padding: 20px 24px;
 }
 
-
-
 .button-icon {
   margin-right: 10px;
   fill: var(--title-text-color);
-
 }
 
 .contact-icon {
@@ -432,100 +421,148 @@ border-radius: 0px 0px 4px 4px;
   fill: var(--title-text-color);
 }
 
- .button:hover .button-icon {
-  fill:  var(--accent-color);
+.button:hover .button-icon {
+  fill: var(--accent-color);
 }
 .button:hover .contact-icon {
-  fill:  var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .item .button {
   display: flex;
-align-items: center;
+  align-items: center;
 }
 
 .item .icon-item {
- 
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
   padding: 25px 102px;
-  
 }
-
-
 
 /* social link */
 
-
-
-.social-icon  {
-  
+.social-icon {
   padding-bottom: 30px;
   margin: 0;
 }
-  
-  
 
 .social-link {
   width: 44px;
-    height: 44px;
-    background-color:var(--white-color);
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  
-
+  height: 44px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .social-link:hover .list-icon,
 .social-link:focus .list-icon {
   fill: var(--white-color);
-  
- 
 }
-.social-link:hover, 
+.social-link:hover,
 .social-link:focus {
-  background-color:var(--accent-color);
+  background-color: var(--accent-color);
 }
 .social-link:last-child {
   margin-right: 0;
 }
 .list-icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
+/* company */
 .section-company {
   padding: 94px 0 94px 0;
 }
 
-.company-box{
+.company-box {
   padding: 0;
   margin: 0;
   display: flex;
 }
 .company-list {
+  margin-right: 30px;
+}
+.company-link {
   border-radius: 4px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   box-sizing: border-box;
-  border-radius: 4px;
   width: 170px;
   height: 92px;
   display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 30px;
+  align-items: center;
+  justify-content: center;
 }
-.company-box .company-list:last-child {
+.company-box .company-link:last-child {
+  margin-right: 0;
+}
+.company-list:last-child {
   margin-right: 0;
 }
 .company-icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
-.company-list:hover {
-  border: 1px solid #2196F3;
-  
+.company-link:hover .company-icon, 
+.company-link:focus .company-icon {
+  fill: var(--accent-color);
 }
- 
-.company-link:hover . svg {
-  fill:  var(--accent-color);
+.company-link:hover,
+.company-link:focus {
+  border: 1px solid #2196f3;
+}
+
+.join-color {
+  color: var(--white-color);
+  margin: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.footer-container {
+  display: flex;
+}
+.footer-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.social-icon-footer {
+  margin-left: 70px;
+}
+
+.social-icon {
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.join-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-link:hover .join-icon,
+.join-link:focus .join-icon {
+  fill: var(--white-color);
+}
+.join-link:hover,
+.join-link:focus {
+  background-color: var(--accent-color);
+}
+.join-link:last-child {
+  margin-right: 0;
+}
+.join-icon {
+  fill: #afb1b8;
+}
+
+.footer-link {
+  margin-right: 10px;
+}
+
+.footer-link:last-child {
+  margin-right: 0;
 }
