@@ -48,6 +48,9 @@ li {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
+.studio {
+  color: var( --primery-text-color);
+}
 
 .nav-list .logo-text {
   text-decoration: none;
@@ -74,8 +77,8 @@ li {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.nav-list .logo-item:hover,
-.nav-list :focus {
+.nav-list .menu-link:hover,
+.nav-list .menu-link:focus {
   color: var(--accent-color);
 }
 .list-text {
@@ -98,8 +101,13 @@ li {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.list-text a:hover {
+.list-text .button:hover,
+.list-text .button:focus {
   color: var(--accent-color);
+}
+.button:hover svg,
+.button:focus svg {
+  fill: var(--accent-color);
 }
 
 
@@ -444,8 +452,9 @@ h2.text {
 /* social link */
 
 .social-icon {
-  padding-bottom: 30px;
   margin: 0;
+  display: flex;
+  margin-top: 16px;
 }
 
 .social-link {
@@ -484,16 +493,18 @@ h2.text {
 }
 .company-list {
   margin-right: 30px;
-}
-.company-link {
-  border-radius: 4px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
   width: 170px;
   height: 92px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.company-link {
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  padding: 16px 32px;
+ 
 }
 .company-box .company-link:last-child {
   margin-right: 0;
@@ -532,10 +543,6 @@ h2.text {
   margin-left: 70px;
 }
 
-.social-icon {
-  padding-bottom: 30px;
-  margin: 0;
-}
 
 .join-link {
   width: 44px;
