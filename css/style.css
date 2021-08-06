@@ -64,8 +64,8 @@ li {
 }
 .nav-list a {
   display: block;
-  padding-bottom: 32px;
-  padding-top: 32px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 
   color: var(--primery-text-color);
   text-decoration: none;
@@ -74,8 +74,8 @@ li {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.nav-list a:hover,
-.nav-list a:focus {
+.nav-list .logo-item:hover,
+.nav-list :focus {
   color: var(--accent-color);
 }
 .list-text {
@@ -98,9 +98,11 @@ li {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.list-text .button:hover {
+.list-text a:hover {
   color: var(--accent-color);
 }
+
+
 .container-box {
   max-width: 1600px;
   height: 600px;
