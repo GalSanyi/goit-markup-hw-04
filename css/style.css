@@ -271,7 +271,8 @@ h2.text {
   margin-right: 8px;
 }
 
-.desc-list button:hover {
+.desc-list button:hover,
+.desc-list button:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
   box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
@@ -409,8 +410,12 @@ h2.text {
   margin-left: 30px;
   margin-top: 30px;
 }
+.pic-link {
+  display: block;
+}
 
-.section-pic-list > .item:hover {
+.pic-link:hover,
+.pic-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -492,22 +497,23 @@ h2.text {
   display: flex;
 }
 .company-list {
-  margin-right: 30px;
   width: 170px;
   height: 92px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 30px;
 }
 .company-link {
-  border-radius: 4px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  padding: 16px 32px;
+  fill: #afb1b8;
+    padding: 16px 32px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
  
 }
 .company-box .company-link:last-child {
-  margin-right: 0;
+  margin-right: 0; 
 }
 .company-list:last-child {
   margin-right: 0;
@@ -529,10 +535,12 @@ h2.text {
   margin: 0;
   margin: 0;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-list {
   display: flex;
