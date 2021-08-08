@@ -412,6 +412,7 @@ h2.text {
 }
 .pic-link {
   display: block;
+  text-decoration: none;
 }
 
 .pic-link:hover,
